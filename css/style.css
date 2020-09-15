@@ -1,0 +1,57 @@
+.wrapper {
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+/*********************/
+/********Fonts********/
+/*********************/
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('/font/FuturaBT-Medium.woff2') format('woff2'),
+        url('/font/FuturaBT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('/font/FuturaBT-Book.woff') format('woff2'),
+        url('/font/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*********************/
+/********Menu*********/
+/*********************/
+.menu {
+    background-color: #7670B2;
+    height: 53px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: right;
+    vertical-align: center;
+    list-style-type: none;
+    padding-top: 12px;
+}
+
+.menu li {
+    margin: 0px 10px;
+}
+
+.menu  a {
+    color: #ffffff;
+    display: inline;
+    font-family: 'Futura Bk BT';
+    font-size: 1.3em;
+}
+
+/*********************/
+/*********************/
+/*********************/
