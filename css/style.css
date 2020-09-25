@@ -36,7 +36,7 @@
 .menu ul {
     display: flex;
     justify-content: right;
-    vertical-align: center;
+    vertical-align: middle;
     list-style-type: none;
     padding-top: 12px;
 }
