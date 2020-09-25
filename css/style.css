@@ -36,7 +36,7 @@
 .menu ul {
     display: flex;
     justify-content: right;
-    vertical-align: center;
+    vertical-align: middle;
     list-style-type: none;
     padding-top: 12px;
 }
@@ -50,6 +50,33 @@
     display: inline;
     font-family: 'Futura Bk BT';
     font-size: 1.3em;
+}
+
+/*********************/
+/*******inicio********/
+/*********************/
+
+.hero {
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    color: #ffffff;
+}
+
+.transparentColor {
+    background-color: rgba(234, 79, 255, 0.7);
+    position: absolute;
+    top: 53px;
+    left: 0;
+    width: 615px;
+    height: 544px;
+}
+
+.text {
+    font-family: 'Futura Bk BT';
+    padding-top: 150px;
+    padding-left: 150px;
 }
 
 /*********************/
